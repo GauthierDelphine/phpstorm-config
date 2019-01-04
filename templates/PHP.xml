@@ -1,0 +1,3 @@
+<templateSet group="PHP">
+  <template name="ass" value="@Assert\" description="" toReformat="false" toShortenFQNames="true" />
+</templateSet>
