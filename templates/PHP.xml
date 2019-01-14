@@ -1,6 +1,6 @@
 <templateSet group="PHP">
   <template name="ass" value="@Assert\" description="" toReformat="false" toShortenFQNames="true" />
-  <template name="action" value="namespace $ENDS$&#10;&#10;class $ACTION$Action extends BaseController &#10;{&#10;    &#10;    public function __construct() &#10;    {&#10;    }&#10;    &#10;    public function __invoke()&#10;    {&#10;        return $this-&gt;render('');   &#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="action" value="namespace $ENDS$&#10;&#10;class $ACTION$Action extends BaseController &#10;{&#10;    &#10;    public function __construct() &#10;    {&#10;    }&#10;    &#10;    public function __invoke()&#10;    {&#10;        return $this-&gt;render('');   &#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ENDS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ACTION" expression="filenameWithoutExtension()" defaultValue="filenameWithoutExtension()" alwaysStopAt="false" />
   </template>
