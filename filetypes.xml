@@ -6,17 +6,18 @@
       <mapping pattern="SearchCitiesQuery.gql" type="GraphQL" />
       <mapping pattern="testUpdateUserPremiumPack" type="JSON" />
       <mapping pattern="SearchMemberQuery" type="PHP" />
-      <mapping pattern="blackfire" type="PLAIN_TEXT" />
       <mapping pattern=".env.staging" type="PLAIN_TEXT" />
-      <mapping pattern="uuids" type="PLAIN_TEXT" />
-      <mapping pattern="pathfile" type="PLAIN_TEXT" />
-      <mapping pattern="export" type="PLAIN_TEXT" />
       <mapping pattern="testExistingUserSubscribe.dump" type="PLAIN_TEXT" />
+      <mapping pattern="uuids" type="PLAIN_TEXT" />
+      <mapping pattern="blackfire" type="PLAIN_TEXT" />
+      <mapping pattern="export" type="PLAIN_TEXT" />
+      <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping ext="mjml" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="dump" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="EditMemberNewsletterPositionPayload" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
